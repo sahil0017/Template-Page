@@ -1,0 +1,57 @@
+.sidebar {
+    display: flex;
+    flex: 0.2;
+    
+    flex-direction: column;
+    object-fit: contain;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    color: #9d9d9d;
+    background-color: #f8f0df;
+}
+
+.head>h1 {
+    font-size: 24px;
+    margin-left: 110px;
+
+}
+
+.head>h4 {
+    color: #79b4b7;
+    margin-top: 15px;
+    margin-left: 37px;
+}
+
+
+.Icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Icons:hover{
+    background-color: #79B4B7;
+    color: red;
+}
+
+.content{
+    background-color: #fafafa;
+    color: grey;
+}
+
+.icon{
+    color: rgba(247, 97, 97, 0.493);
+    height: 50px !important;
+    margin-left: 20px;
+}
+
+.icon:hover{
+    color: red;
+}
